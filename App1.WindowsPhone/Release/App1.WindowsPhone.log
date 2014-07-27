@@ -1,0 +1,36 @@
+﻿Build started 7/27/2014 9:06:15 PM.
+     1>Project "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\App1.WindowsPhone.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Release\App1.WindowsPhone.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\pch.cpp"
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\App1.WindowsPhone.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\App.xaml.cpp" MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.exe" /NOLOGO WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\pch.obj
+         Release\MainPage.xaml.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Generating code
+         Finished generating code
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D PSAPI_VERSION=2 /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /D _UITHREADCTXT_SUPPORT=0 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\App1.WindowsPhone.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.1\\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.exe" /NOLOGO WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:kernel32.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\pch.obj
+         Release\MainPage.xaml.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Release\XamlTypeInfo.g.obj
+            Creating library C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.lib and object C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.exp
+         Generating code
+         Finished generating code
+         App1.WindowsPhone.vcxproj -> C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\App1.WindowsPhone.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\\bin\x86\MakePri.exe New -ProjectRoot "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\\" -ConfigXml Release\priconfig.xml -OutputFile "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.WindowsPhone\resources.pri" -ExtensionDll "C:\Program Files (x86)\Windows Phone Kits\8.1\\bin\x86\MrmEnvironmentExtDl.dll" -IndexName 89773617-3636-4043-90b1-b0032a3a06f4 -Verbose -Overwrite  
+     1>Done Building Project "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.WindowsPhone\App1.WindowsPhone.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.24

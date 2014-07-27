@@ -1,0 +1,36 @@
+﻿Build started 7/27/2014 9:06:16 PM.
+     1>Project "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\App1.Windows.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Release\App1.Windows.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\pch.cpp"
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\App1.Windows.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\App.xaml.cpp" MainPage.xaml.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         MainPage.xaml.cpp
+         XamlTypeInfo.Impl.g.cpp
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.exe" /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\pch.obj
+         Release\MainPage.xaml.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Generating code
+         Finished generating code
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\\" /I"Generated Files\\" /IRelease\ /I"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Shared\\" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\App1.Windows.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.exe" /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Release\App.xaml.obj
+         Release\pch.obj
+         Release\MainPage.xaml.obj
+         Release\XamlTypeInfo.Impl.g.obj
+         Release\XamlTypeInfo.g.obj
+            Creating library C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.lib and object C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.exp
+         Generating code
+         Finished generating code
+         App1.Windows.vcxproj -> C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\App1.Windows.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x64\MakePri.exe New -ProjectRoot "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\\" -ConfigXml Release\priconfig.xml -OutputFile "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\Release\App1.Windows\resources.pri" -IndexName ebf8f35a-575a-42f6-899c-7fc9908d9ec0 -Verbose -Overwrite  
+     1>Done Building Project "C:\Users\Michiel\documents\visual studio 2013\Projects\App1\App1\App1.Windows\App1.Windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.08
